@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Home.css"
 import TypewriterComponent from 'typewriter-effect'
+import cat1 from "../Images/cat1.jpg"
 
 function Home() {
   return (
@@ -16,6 +17,10 @@ function Home() {
           }}
         />
         </h1>
+        </div>
+
+        <div>
+            <img className='cat1' src={cat1} alt='cat1'></img>
         </div>
     
     <div className='shop-now-button'>

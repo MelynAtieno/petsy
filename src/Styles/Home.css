@@ -18,3 +18,10 @@
 .header{
     text-align: center;
 }
+.cat1{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 120px;
+}
