@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+        <button className='shop-now'><b>SHOP NOW</b></button>
+    </div>
   )
 }
 
