@@ -1,3 +1,20 @@
+.shop-now-button{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .shop-now{
+    
     background-color: #9BE7FF;
+    border: none;
+    cursor: pointer;
+    padding: 1.5em;
+    border-radius: 10px;
+    
+}
+.header{
+    text-align: center;
 }

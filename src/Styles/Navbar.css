@@ -1,6 +1,7 @@
 .home-nav{
     background-color: #9BE7FF;
     text-align: right;
+    
 }
 .petsy-nav{
     text-align: left;
@@ -10,5 +11,6 @@
     display: inline-block;
     margin-right: 3em;
     text-align: right;
+    cursor: pointer;
     
 }
