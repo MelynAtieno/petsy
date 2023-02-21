@@ -1,0 +1,14 @@
+.home-nav{
+    background-color: #9BE7FF;
+    text-align: right;
+}
+.petsy-nav{
+    text-align: left;
+}
+.nav-item{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 3em;
+    text-align: right;
+    
+}
