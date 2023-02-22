@@ -23,14 +23,15 @@ function Home() {
         </h1>
         </div>
 
-        <div className='cat1-div'>
+          <div className='img-top'>
+        <div className='img-top-column'>
             <img className='cat1' src={cat1} alt='cat1'></img>
         </div>
 
-        <div className='dog3-div'> 
+        <div className='img-top-column'> 
             <img className='dog3' src={dog3} alt="dog3"></img>
         </div>
-
+        </div>
         <div className='img-row'>
 
         <div className='img-column'>
