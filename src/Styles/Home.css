@@ -19,9 +19,50 @@
     text-align: center;
 }
 .cat1{
+    /*position: absolute;*/
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    float: left;
+}
+.dog3{
+    /*position: absolute;*/
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 10px;
+    float: right;
+}
+
+.dog2{
     position: absolute;
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    top: 120px;
+    top: 350px;
+
+}
+.parrot1{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 350px;
+   
+}
+.rabbit1{
+    position: absolute;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    top: 350px;
+    
+}
+.img-row{
+    display: flex;
+}
+.img-column{
+    width: 33.33%;
+    padding: 5px;
 }
