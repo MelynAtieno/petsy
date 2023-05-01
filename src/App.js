@@ -4,6 +4,8 @@ import Home from './Components/Home';
 import {Route, Routes} from "react-router-dom";
 import React from 'react';
 import Whyus from "./Components/Whyus";
+import Contact from './Components/Contact';
+
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
     <div className="App">
       
       <Navbar />
-      <Home />
+      
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/home' element={<Home />}/>
