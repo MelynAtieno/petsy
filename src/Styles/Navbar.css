@@ -3,7 +3,10 @@
     top: 0;
     background-color: #9BE7FF;
     text-align: right;
-    padding: 20px;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
     
 }
@@ -11,15 +14,18 @@
     float: left;
     text-decoration: none;
     color: black;
+    align-items: center;
+    font-size: 2rem;
     
 }
-ul{
-   list-style-type: none; 
+.home-nav ul{
+   list-style-type: none;
+   display: flex; 
 }
 .nav-item{
     text-decoration: none;
-    display: inline-block;
-    margin-right: 3em;
+    display: flex;
+    margin-right: 2em;
     text-align: right;
     cursor: pointer;
     color: black;
