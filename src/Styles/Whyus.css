@@ -1,10 +1,12 @@
-.serve{
+
+.our-history{
     background-color: #9be7ff;
 }
 .pet-owner{
-    position: absolute;
-    width: 300px;
+    float: right;
+    width: 350px;
     height: 400px;
+    text-align: right;
     
     
 }
@@ -17,4 +19,14 @@
 }
 .mission-text{
     padding-right: 2rem;
+}
+.our-history{
+    height: 70vh;
+}
+.team{
+    height: 70vh;
+}
+.achievements{
+    height: 70vh;
+    background-color: #9be7ff;
 }

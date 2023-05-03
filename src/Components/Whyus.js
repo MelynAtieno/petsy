@@ -19,12 +19,25 @@ function Whyus() {
         </div>
         </div>
 
-        <div className='serve'>
-        <h3>OUR SERVICES</h3>
-        <p classname="services"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        <div className='our-history'>
+        <h3>Our History</h3>
+        <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
     eaque veritatis doloribus laborum quam repudiandae?</b></p>
     <div></div>
+    </div>
+
+    <div className='team'>
+        <h3>Meet The Team</h3>
+        
+    </div>
+
+    <div className='achievements'>
+      <h3>Special Achievements</h3>
+      <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+    Magni voluptatem, beatae et magnam praesentium corporis in numquam eum voluptate blanditiis nemo, 
+    aut obcaecati modi tempora labore nam. Voluptatibus, obcaecati modi!</b></p>
+
     </div>
 
     <div className='pets-sell'>
