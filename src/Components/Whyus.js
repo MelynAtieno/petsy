@@ -1,16 +1,22 @@
 import React from 'react'
 import "../Styles/Whyus.css"
+import happypetowner from "../Images/happypetowner.jpg"
 
 function Whyus() {
   return (
     <div>
       <div className='mission'>
+        <div className='mission-text'>
       <h3>We Want You To Be Happy</h3>
         <p classname="why"><b>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, debitis nobis. <br/>
     Non vero nulla, modi mollitia eius aut odio ex, 
-    sequi nemo sed quasi inventore corrupti doloribus, rem voluptates! Beatae?
+    sequi nemo sed quasi <br/>inventore corrupti doloribus, rem voluptates! Beatae?
         </b></p>
+        </div>
+        <div className='img-mission'>
+          <img className='pet-owner' src={happypetowner} alt='happypetowner'></img>
+        </div>
         </div>
 
         <div className='serve'>
@@ -18,6 +24,7 @@ function Whyus() {
         <p classname="services"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
     eaque veritatis doloribus laborum quam repudiandae?</b></p>
+    <div></div>
     </div>
 
     <div className='pets-sell'>

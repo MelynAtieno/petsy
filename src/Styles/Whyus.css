@@ -1,3 +1,20 @@
 .serve{
     background-color: #9be7ff;
 }
+.pet-owner{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    
+    
+}
+.mission{
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    padding: 2rem; 
+    
+}
+.mission-text{
+    padding-right: 2rem;
+}
