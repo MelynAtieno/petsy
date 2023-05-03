@@ -1,6 +1,11 @@
 .homepage{
-    background-image: url(../Images/petstore.jpg);
-    background-repeat: no-repeat;
+height: 92vh;
+background: url(../Images/petstore.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    
 }
 .shop-now-button{
     margin: 0;
@@ -21,4 +26,5 @@
 }
 .header{
     text-align: center;
+
 }
