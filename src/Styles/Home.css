@@ -1,3 +1,7 @@
+.homepage{
+    background-image: url(../Images/petstore.jpg);
+    background-repeat: no-repeat;
+}
 .shop-now-button{
     margin: 0;
     position: absolute;
