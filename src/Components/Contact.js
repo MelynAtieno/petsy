@@ -18,6 +18,7 @@ function Contact() {
       </div>
 
       <div className='contact-footer'>
+          <h3>GET IN TOUCH</h3>
           <label className='phone'><b>Phone Number :</b></label><br/>
           <label className='email'><b>Email Address :</b></label><br/>
           <label className='address'><b>Our Address :</b></label><br/>
