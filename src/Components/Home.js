@@ -4,7 +4,7 @@ import TypewriterComponent from 'typewriter-effect'
 import { useNavigate } from 'react-router-dom'
 
 function Home() {
-  const navigate = useNavigate();
+  const toShop = useNavigate();
 
   return (
     <div className='homepage'>
@@ -25,7 +25,7 @@ function Home() {
           
    
     <div className='shop-now-button'>
-        <button className='shop-now' onClick={() => {navigate("/shop")}}><b>SHOP NOW</b></button>
+        <button className='shop-now' onClick={() => {toShop("/shop")}}><b>SHOP NOW</b></button>
     </div>
     
    
