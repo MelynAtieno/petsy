@@ -1,8 +1,10 @@
 import React from 'react'
+import "../Styles/Contact.css"
 
 function Contact() {
   return (
     <div>
+      <div className='contact-top'>
       <div className='contact-us'>
       <h3 className='help'>Need Help?</h3>
       <h3 className='chat'>Let's Chat</h3>
@@ -15,6 +17,7 @@ function Contact() {
         <textarea placeholder='Type your message here'></textarea><br/>
         <button className='send-msg'><b>SEND MESSAGE</b></button>
         </form>
+      </div>
       </div>
 
       <div className='contact-footer'>
