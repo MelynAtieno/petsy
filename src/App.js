@@ -5,6 +5,7 @@ import {Route, Routes} from "react-router-dom";
 import React from 'react';
 import Whyus from "./Components/Whyus";
 import Contact from './Components/Contact';
+import Shop from "./Components/Shop"
 
 
 
@@ -18,7 +19,9 @@ function App() {
         <Route path='/' element={<Home />}/>
         <Route path='/home' element={<Home />}/>
         <Route path='/whyus' element={<Whyus />}/>
-        <Route path='/Contact' element={<Contact />}/>
+        <Route path='/contact' element={<Contact />}/>
+        <Route path='/shop' element={<Shop />}/>
+
       </Routes>
     </div>
   );
