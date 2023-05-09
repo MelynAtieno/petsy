@@ -1,3 +1,10 @@
 .contact-top{
     text-align: center;
 }
+.send-msg{
+    background-color: #9be7ff;
+    border: none;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 2%;
+}
