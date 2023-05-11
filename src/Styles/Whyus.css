@@ -1,6 +1,10 @@
 
 .our-history{
+    display: flex;
+    align-items: center;
     background-color: #9be7ff;
+    height: 70vh;
+    padding: 2rem; 
 }
 .pet-owner{
     float: right;
@@ -20,8 +24,12 @@
 .mission-text{
     padding-right: 2rem;
 }
-.our-history{
-    height: 70vh;
+.history-img{
+    float: left;
+    width: 350px;
+    height: 400px;
+    text-align: left;
+    
 }
 .team{
     height: 70vh;

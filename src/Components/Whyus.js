@@ -1,6 +1,7 @@
 import React from 'react'
 import "../Styles/Whyus.css"
 import happypetowner from "../Images/happypetowner.jpg"
+import history from "../Images/dog5.jpg"
 
 function Whyus() {
   return (
@@ -19,13 +20,19 @@ function Whyus() {
         </div>
         </div>
 
+
         <div className='our-history'>
+        <div className='hstry-text'>
         <h3>Our History</h3>
         <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
     eaque veritatis doloribus laborum quam repudiandae?</b></p>
-    <div></div>
     </div>
+    <div>
+    <img className='history-img' src={history} alt='history'></img>
+    </div>
+    </div>
+    
 
     <div className='team'>
         <h3>Meet The Team</h3>
