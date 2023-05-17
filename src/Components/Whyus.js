@@ -43,7 +43,17 @@ function Whyus() {
       <h3>Special Achievements</h3>
       <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
     Magni voluptatem, beatae et magnam praesentium corporis in numquam eum voluptate blanditiis nemo, 
-    aut obcaecati modi tempora labore nam. Voluptatibus, obcaecati modi!</b></p>
+    aut obcaecati modi tempora labore nam. Voluptatibus, obcaecati modi!</b></p> <br/>
+      <p><b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+      Placeat totam suscipit eaque error pariatur ut provident sapiente, velit, 
+      mollitia hic odit dolore illo quos inventore eius nisi quo officia officiis?</b></p> <br/>
+      <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Tenetur aut rerum officiis, doloremque repellat assumenda, cumque, 
+        illo eos saepe suscipit perferendis molestiae vel velit nesciunt accusamus quis praesentium? 
+        Voluptates, sint.</b></p><br/>
+        <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Vel ab minima beatae, aliquam, neque vero aliquid rem fugiat ad molestiae enim eveniet libero? 
+          Quo error ut quae cumque ad facilis?</b></p>
 
     </div>
 
