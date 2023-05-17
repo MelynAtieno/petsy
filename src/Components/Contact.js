@@ -22,9 +22,17 @@ function Contact() {
 
       <div className='contact-footer'>
           <h3>GET IN TOUCH</h3>
-          <label className='phone'><b>Phone Number :</b></label><br/>
-          <label className='email'><b>Email Address :</b></label><br/>
-          <label className='address'><b>Our Address :</b></label><br/>
+          <div className='column'><b>Phone Number :</b>
+          <p><b>089-942-664</b></p>
+          <p><b>062-339-876</b></p>
+          </div>
+          <div className='column'><b>Email Address :</b>
+          <p><b>petsy@gmail.com</b></p>
+          </div>
+          <div className='column'><b>Location:</b>
+          <p><b>72 La Sien Ave. <br/>
+                Ferrington, MI 43731</b></p>
+          </div>
       </div>
     </div>
   )

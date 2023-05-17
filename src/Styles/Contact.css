@@ -23,3 +23,28 @@ textarea{
     height: 100px;
     border-radius: 10px;
 }
+.contact-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.contact-footer .column {
+    float: left;
+    width: 33.33%;
+    margin-top: 10px;
+    
+  }
+.contact-footer:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.column p{
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .column-footer .column {
+      width: 100%;
+    }
+  }
