@@ -1,5 +1,8 @@
 import React from 'react'
 import "../Styles/Contact.css"
+import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+import { MdLocationPin } from "react-icons/md";
 
 function Contact() {
   return (
@@ -22,14 +25,14 @@ function Contact() {
 
       <div className='contact-footer'>
           <h3>GET IN TOUCH</h3>
-          <div className='column'><b>Phone Number :</b>
+          <div className='column'><b>Phone Number</b><BsFillTelephoneFill/>
           <p><b>089-942-664</b></p>
           <p><b>062-339-876</b></p>
           </div>
-          <div className='column'><b>Email Address :</b>
+          <div className='column'><b>Email Address</b><MdEmail/>
           <p><b>petsy@gmail.com</b></p>
           </div>
-          <div className='column'><b>Location:</b>
+          <div className='column'><b>Location</b><MdLocationPin/>
           <p><b>72 La Sien Ave. <br/>
                 Ferrington, MI 43731</b></p>
           </div>
