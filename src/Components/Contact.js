@@ -24,7 +24,6 @@ function Contact() {
       </div>
 
       <div className='contact-footer'>
-          <h3>GET IN TOUCH</h3>
           <div className='column'><b>Phone Number</b><BsFillTelephoneFill/>
           <p><b>089-942-664</b></p>
           <p><b>062-339-876</b></p>
