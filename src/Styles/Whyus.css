@@ -28,7 +28,7 @@
     float: left;
     width: 350px;
     height: 400px;
-    text-align: left;
+    
     
 }
 .team{
@@ -37,4 +37,21 @@
 .achievements{
     height: 70vh;
     background-color: #9be7ff;
+}
+.hstry-text{
+    text-align: left;
+    float: right;
+}
+.team-container{
+    align-items: center;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+
+}
+.team-image{
+    padding: 2rem;
+    
+}
+.team-name{
+    font-size: 25px;
 }

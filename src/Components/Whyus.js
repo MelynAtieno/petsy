@@ -2,6 +2,7 @@ import React from 'react'
 import "../Styles/Whyus.css"
 import happypetowner from "../Images/happypetowner.jpg"
 import history from "../Images/dog5.jpg"
+import femaleavatar from "../Images/female-avatar.png"
 
 function Whyus() {
   return (
@@ -36,7 +37,24 @@ function Whyus() {
 
     <div className='team'>
         <h3>Meet The Team</h3>
+        <div className='team-container'>
+        <div class="team-image"> <img src={femaleavatar} alt="team-member" height="200px"/> 
+        <p className='team-name'><b>Alice Madison </b></p><br/>
+        <p><b>Chief  Executive Officer</b></p>
+        </div> 
+        <div class="team-image"> <img src={femaleavatar} alt="team-member" height="200px"/>
+        <p className='team-name'><b>Russell James</b></p><br/>
+        <p><b>Chief Technology Officer</b></p>
+
+         </div> 
+        <div class="team-image"> <img src={femaleavatar} alt="team-member" height="200px"/>
+        <p className='team-name'><b>Giji Fehmen</b></p><br/>
+        <p><b>Operations Manager</b></p>
+         </div> 
+      
+        </div>
         
+
     </div>
 
     <div className='achievements'>
