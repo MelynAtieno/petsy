@@ -28,12 +28,13 @@ function Whyus() {
         <div className='our-history'>
         <div className='hstry-text'>
         <h3>Our History</h3>
+        <img className='history-img' src={history} alt='history'></img>
         <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
     eaque veritatis doloribus laborum quam repudiandae?</b></p>
     </div>
     <div>
-    <img className='history-img' src={history} alt='history'></img>
+    
     </div>
     </div>
     
