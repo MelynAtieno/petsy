@@ -53,6 +53,7 @@
 }
 .team-image{
     padding: 2rem;
+    text-align: center;
     
 }
 .team-name{
@@ -70,11 +71,5 @@
 }
 .achieve{
     padding: 2rem;
-}
-.achieve h1{
-    margin-left: 10%;
-}
-.achieve p{
-    padding-left: 1.5em;
-
+    text-align: center;
 }
