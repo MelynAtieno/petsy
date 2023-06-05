@@ -17,7 +17,7 @@ function Whyus() {
     <div>
       <div className='mission'>
         <div className='mission-text'>
-      <h3>We Want You To Be Happy</h3>
+      <h3>WE WANT YOU TO BE HAPPY</h3>
         <p classname="why"><b>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, debitis nobis. <br/>
     Non vero nulla, modi mollitia eius aut odio ex, 
@@ -35,7 +35,7 @@ function Whyus() {
     <img className='history-img' src={history} alt='history'></img>
     </div>
         <div className='hstry-text'>
-        <h3>Our History</h3>
+        <h3>OUR HISTORY</h3>
        
         <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
@@ -46,7 +46,7 @@ function Whyus() {
     
 
     <div className='team'>
-        <h3>Meet The Team</h3>
+        <h3>MEET THE TEAM</h3>
         <div className='team-container'>
         <div class="team-image"> <img src={femaleavatar} alt="team-member" height="200px"/> 
         <p className='team-name'><b>Alice Madison </b></p><br/>
@@ -68,7 +68,7 @@ function Whyus() {
     </div>
 
     <div className='achievements'>
-      <h3>Special Achievements</h3>
+      <h3>SPECIAL ACHIEVEMENTS</h3>
       <div className='achieve-container'>
       <div className='achieve'>
       <HiUserGroup size={150} />
