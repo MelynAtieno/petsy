@@ -33,10 +33,13 @@
 }
 .team{
     height: 70vh;
+    padding: 2rem;
 }
 .achievements{
     height: 70vh;
     background-color: #9be7ff;
+    padding: 2rem;
+    align-items: center;
 }
 .hstry-text{
     text-align: left;
@@ -54,4 +57,8 @@
 }
 .team-name{
     font-size: 25px;
+}
+.pets-sell{
+    height:70vh;
+    padding: 2rem;
 }
