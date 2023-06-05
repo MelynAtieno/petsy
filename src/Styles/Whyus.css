@@ -62,3 +62,19 @@
     height:70vh;
     padding: 2rem;
 }
+.achieve-container{
+    align-items: center;
+    display: grid;
+    grid-template-columns:33% 33% 33%;
+
+}
+.achieve{
+    padding: 2rem;
+}
+.achieve h1{
+    margin-left: 10%;
+}
+.achieve p{
+    padding-left: 1.5em;
+
+}

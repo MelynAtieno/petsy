@@ -62,17 +62,24 @@ function Whyus() {
 
     <div className='achievements'>
       <h3>Special Achievements</h3>
-
-      <div>
-      <HiUserGroup />
+      <div className='achieve-container'>
+      <div className='achieve'>
+      <HiUserGroup size={150} />
+      <h1>3000+</h1>
+      <p><b>Happy Customers</b></p>
       </div>
 
-      <div>
-        <FaTrophy />
+      <div className='achieve'>
+        <FaTrophy size={150} />
+        <h1>6</h1>
+        <p><b>Awards</b></p>
       </div>
       
-      <div>
-        <FaHandshake />
+      <div className='achieve'>
+        <FaHandshake size={150} />
+        <h1>10</h1>
+        <p><b>Partnerships</b></p>
+      </div>
       </div>
 
     </div>
