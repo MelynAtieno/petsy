@@ -5,6 +5,11 @@ import history from "../Images/dog5.jpg"
 import femaleavatar from "../Images/female-avatar.png"
 import { HiUserGroup } from 'react-icons/hi'
 import { FaTrophy, FaHandshake } from "react-icons/fa"
+import cat1 from "../Images/cat1.jpg"
+import dog6 from "../Images/dog6.jpg"
+import parrot1 from "../Images/parrot1.jpg"
+import rabbit1 from "../Images/rabbit1.jpg"
+
 
 
 function Whyus() {
@@ -26,16 +31,17 @@ function Whyus() {
 
 
         <div className='our-history'>
+        <div>
+    <img className='history-img' src={history} alt='history'></img>
+    </div>
         <div className='hstry-text'>
         <h3>Our History</h3>
-        <img className='history-img' src={history} alt='history'></img>
+       
         <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
     Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
     eaque veritatis doloribus laborum quam repudiandae?</b></p>
     </div>
-    <div>
-    
-    </div>
+   
     </div>
     
 
@@ -87,12 +93,22 @@ function Whyus() {
 
     <div className='pets-sell'>
         <h3>PETS WE SELL</h3>
-        <ul>
-          <li><b>Cats</b></li>
-          <li><b>Dogs</b></li>
-          <li><b>Rabbits</b></li>
-          <li><b>Parrots</b></li>
-        </ul>
+      <div className='pets-container'>
+        <div className='pet-image'>
+            <img src={cat1} alt='cat1' height={250} width={250}></img>
+        </div>
+        <div className='pet-image'>
+            <img src={dog6} alt='dog6'  height={250} width={250}></img>
+        </div>
+        <div className='pet-image'>
+            <img src={parrot1} alt='parrot1'  height={250} width={250}></img>
+        </div>
+        <div className='pet-image'>
+            <img src={rabbit1} alt='rabbit1'  height={250} width={250}></img>
+        </div>
+
+
+      </div>
     </div>
     </div>
   )
