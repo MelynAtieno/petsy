@@ -5,7 +5,7 @@ import history from "../Images/dog5.jpg"
 import femaleavatar from "../Images/female-avatar.png"
 import { HiUserGroup } from 'react-icons/hi'
 import { FaTrophy, FaHandshake } from "react-icons/fa"
-import cat1 from "../Images/cat1.jpg"
+import cat5 from "../Images/cat5.jpg"
 import dog6 from "../Images/dog6.jpg"
 import parrot1 from "../Images/parrot1.jpg"
 import rabbit1 from "../Images/rabbit1.jpg"
@@ -17,11 +17,11 @@ function Whyus() {
     <div>
       <div className='mission'>
         <div className='mission-text'>
-      <h3>WE WANT YOU TO BE HAPPY</h3>
+      <h2>WE WANT YOU TO BE HAPPY</h2>
         <p classname="why"><b>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, debitis nobis. <br/>
     Non vero nulla, modi mollitia eius aut odio ex, 
-    sequi nemo sed quasi <br/>inventore corrupti doloribus, rem voluptates! Beatae?
+    sequi nemo sed quasi <br/>inventore corrupti doloribus, rem voluptates! Beatae.
         </b></p>
         </div>
         <div className='img-mission'>
@@ -37,16 +37,17 @@ function Whyus() {
         <div className='hstry-text'>
         <h3>OUR HISTORY</h3>
        
-        <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-    Libero nobis iure cupiditate repellendus enim rem eligendi? <br/> Aliquam architecto ex nihil corporis possimus id esse, 
-    eaque veritatis doloribus laborum quam repudiandae?</b></p>
+        <p classname="history"><b>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br/>
+    Libero nobis iure cupiditate repellendus enim rem eligendi. <br/> 
+    Aliquam architecto ex nihil corporis possimus id esse, <br/>
+    eaque veritatis doloribus laborum quam repudiandae.</b></p>
     </div>
    
     </div>
     
 
     <div className='team'>
-        <h3>MEET THE TEAM</h3>
+        <h2>MEET THE TEAM</h2>
         <div className='team-container'>
         <div class="team-image"> <img src={femaleavatar} alt="team-member" height="200px"/> 
         <p className='team-name'><b>Alice Madison </b></p><br/>
@@ -68,7 +69,7 @@ function Whyus() {
     </div>
 
     <div className='achievements'>
-      <h3>SPECIAL ACHIEVEMENTS</h3>
+      <h2>SPECIAL ACHIEVEMENTS</h2>
       <div className='achieve-container'>
       <div className='achieve'>
       <HiUserGroup size={150} />
@@ -92,10 +93,10 @@ function Whyus() {
     </div>
 
     <div className='pets-sell'>
-        <h3>PETS WE SELL</h3>
+        <h2>PETS WE SELL</h2>
       <div className='pets-container'>
         <div className='pet-image'>
-            <img src={cat1} alt='cat1' height={250} width={250}></img>
+            <img src={cat5} alt='cat5' height={250} width={250}></img>
         </div>
         <div className='pet-image'>
             <img src={dog6} alt='dog6'  height={250} width={250}></img>

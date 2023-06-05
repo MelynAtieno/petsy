@@ -8,13 +8,16 @@
 }
 .img-mission{
     float: right;
-    margin-left: 20%;
+    margin-left: 15%;
+    
 }
 .pet-owner{
     
     width: 300px;
     height: 350px;
-    
+    border-radius: 10px;   
+    box-shadow: 10px 10px 20px  grey,
+                10px 10px 20px rgb(55, 55, 55);
 }
 .mission{
     display: flex;
@@ -24,14 +27,19 @@
     
 }
 .mission-text{
-    padding-right: 2rem;
+    margin-left: 3%;
+}
+.mission-text p{
+    margin-top: 3%;
 }
 .history-img{
     float: left;
     width: 300px;
     height: 350px;
-    
-    
+    margin-left: 15%;
+    border-radius: 10px;   
+    box-shadow: 10px 10px 20px grey,   
+                10px 10px 20px rgb(55, 55, 55);    
 }
 .team{
     height: 70vh;
@@ -44,8 +52,12 @@
     align-items: center;
 }
 .hstry-text{
-   padding-left: 2rem;
+   
    float: right;
+   margin-left: 25%;
+}
+.hstry-text p{
+    margin-top: 3%;
 }
 .team-container{
     align-items: center;
@@ -64,6 +76,7 @@
 .pets-sell{
     height:70vh;
     padding: 2rem;
+    
 }
 .achieve-container{
     align-items: center;
@@ -75,12 +88,22 @@
     padding: 2rem;
     text-align: center;
 }
+.achieve h1{
+    font-size: 40px;
+}
+.achieve p{
+    margin-top: 3%;
+    font-size: 20px;
+}
 .pets-container{
     align-items: center;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-}
-.pet-image img{
-   
     padding: 2rem;
 }
+.pet-image img{   
+    box-shadow: 10px 10px 20px grey,
+                10px 10px 20px rgb(55, 55, 55);
+    border-radius: 10px;    
+}
+
