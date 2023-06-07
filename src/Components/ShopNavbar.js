@@ -5,7 +5,7 @@ function ShopNavbar() {
   return (
     <div className='sidenav-container'>
         <div className='sidenav'>
-
+               
         </div>
     </div>
   )
