@@ -5,7 +5,7 @@ import ShopNavbar from './ShopNavbar'
 function Shop() {
   return (
     <div>
-<ShopNavbar />
+      <ShopNavbar />
     </div>
   )
 }
