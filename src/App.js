@@ -6,6 +6,7 @@ import React from 'react';
 import Whyus from "./Components/Whyus";
 import Contact from './Components/Contact';
 import Shop from "./Components/Shop"
+import ShopCats from './Components/ShopCats';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/whyus' element={<Whyus />}/>
         <Route path='/contact' element={<Contact />}/>
         <Route path='/shop' element={<Shop />}/>
+        <Route path='/shop-cats' element={<ShopCats />}/>
 
       </Routes>
     </div>

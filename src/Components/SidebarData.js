@@ -6,7 +6,7 @@ export const SidebarData = [
     {
         title: "HOME",
         icon: <FaHome />,
-        link: "/shop-home"
+        link: "/shop"
     },
     {
         title: "CATS",

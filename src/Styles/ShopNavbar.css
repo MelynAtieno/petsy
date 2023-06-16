@@ -4,7 +4,6 @@
     background-color: #9be7ff;
     margin-top: 5%;
     cursor: pointer;
-    
 }
 .sidenav{
  padding-top: 1rem;
@@ -22,6 +21,7 @@
 .sidenav-items:hover{
     background-color: white;
 }
+
 #icon{
     flex: 10%;
     display: grid;
