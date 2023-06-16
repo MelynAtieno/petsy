@@ -4,6 +4,7 @@
     background-color: #9be7ff;
     margin-top: 5%;
     cursor: pointer;
+    
 }
 .sidenav{
  padding-top: 1rem;
@@ -22,10 +23,12 @@
     background-color: white;
 }
 #icon{
-    flex: 30%;
+    flex: 10%;
     display: grid;
     place-items: center;
+    padding-right: 4px;
+    
 }
 #title{
-    flex: 70%;
+    flex: 90%;
 }
