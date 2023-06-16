@@ -10,8 +10,8 @@ function ShopNavbar() {
             {SidebarData.map((val,key)=>{
               return(
                 <li className='sidenav-items' onClick={() => (window.location.pathname = val.link)}>
-                   <div>{val.icon}</div>
-                   <div>{val.title}</div>
+                   <div id='icon'>{val.icon}</div>
+                   <div id='title'><b>{val.title}</b></div>
                     </li>
               )
             } )}   
