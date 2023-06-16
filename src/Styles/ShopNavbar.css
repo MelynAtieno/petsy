@@ -18,6 +18,9 @@
     justify-content: center;
     align-items: center;
 }
+.sidenav-items:hover{
+    background-color: white;
+}
 #icon{
     flex: 30%;
     display: grid;
