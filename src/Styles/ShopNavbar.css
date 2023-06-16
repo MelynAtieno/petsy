@@ -4,6 +4,7 @@
     background-color: #9be7ff;
     margin-top: 5%;
     cursor: pointer;
+    position: sticky;
 }
 .sidenav{
  padding-top: 1rem;
@@ -19,7 +20,7 @@
     align-items: center;
 }
 .sidenav-items:hover{
-    background-color: white;
+    background-color: rgb(235, 233, 233);
 }
 
 #icon{

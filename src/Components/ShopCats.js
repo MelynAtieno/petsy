@@ -1,8 +1,12 @@
 import React from 'react'
+import ShopNavbar from './ShopNavbar'
 
 function ShopCats() {
   return (
-    <div>ShopCats</div>
+    <div>
+        <ShopNavbar />
+        Shopcats
+    </div>
   )
 }
 
