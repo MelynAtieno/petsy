@@ -4,9 +4,9 @@ import "../Styles/ShopCats.css"
 
 function ShopCats() {
   return (
-    <div>
+    <div className='shopcats-page'>
         <ShopNavbar />
-        <div>SHOPCATS</div>
+        <div className='cats-container'>SHOPCATS</div>
     </div>
   )
 }

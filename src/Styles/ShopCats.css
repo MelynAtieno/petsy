@@ -1,0 +1,11 @@
+.shopcats-page{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.cats-container{
+    margin: 3% 10%;
+
+    
+}

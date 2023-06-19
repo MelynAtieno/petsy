@@ -4,9 +4,9 @@ import ShopNavbar from './ShopNavbar'
 function ShopRabbits() {
   return (
 
-    <div>
+    <div className='shoprabbits-page'>
        <ShopNavbar /> 
-        <div>ShopRabbits</div>
+        <div className='rabbits-container'>ShopRabbits</div>
         </div>
   )
 }

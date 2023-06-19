@@ -4,10 +4,10 @@ import ShopNavbar from './ShopNavbar'
 
 function ShopParrots() {
   return (
-    <div>
+    <div className='shopparrots-page'>
         <ShopNavbar />
         
-        <div>ShopParrots</div>
+        <div className='parrots-container'>ShopParrots</div>
         </div>
    
   )
