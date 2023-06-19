@@ -5,7 +5,7 @@ function ShopCats() {
   return (
     <div>
         <ShopNavbar />
-        Shopcats
+        <div>SHOPCATS</div>
     </div>
   )
 }
