@@ -19,11 +19,11 @@ function ShopNavbar() {
               )
             })}    */}
             
-            <li  className='sidenav-items'><FaHome/> <Link to="/shop" className='sidenav-title'><b>HOME</b></Link></li>
-            <li  className='sidenav-items'><FaCat/> <Link to="/shop-cats" className='sidenav-title'><b>CATS</b></Link></li>
-            <li  className='sidenav-items'><FaDog/> <Link to="/shop-dogs" className='sidenav-title'><b>DOGS</b></Link></li>
-            <li  className='sidenav-items'><GiRabbit/> <Link to="/shop-rabbits" className='sidenav-title'><b>RABBITS</b></Link></li>
-            <li  className='sidenav-items'><GiParrotHead/> <Link to="/shop-parrots" className='sidenav-title'><b>PARROTS</b></Link></li>
+            <li  className='sidenav-items'><FaHome size={35}/> <Link to="/shop" className='sidenav-title'><b>HOME</b></Link></li>
+            <li  className='sidenav-items'><FaCat size={35}/> <Link to="/shop-cats" className='sidenav-title'><b>CATS</b></Link></li>
+            <li  className='sidenav-items'><FaDog size={35}/> <Link to="/shop-dogs" className='sidenav-title'><b>DOGS</b></Link></li>
+            <li  className='sidenav-items'><GiRabbit size={35}/> <Link to="/shop-rabbits" className='sidenav-title'><b>RABBITS</b></Link></li>
+            <li  className='sidenav-items'><GiParrotHead size={35}/> <Link to="/shop-parrots" className='sidenav-title'><b>PARROTS</b></Link></li>
 
             </ul> 
         </div>

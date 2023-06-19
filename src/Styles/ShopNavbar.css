@@ -18,7 +18,8 @@
     margin: 0%;
     display: flex;
     flex-direction: row;
-   align-items: center;
+    align-items: center;
+   text-align: left;
     
 }
 .sidenav-items:hover{
@@ -27,6 +28,7 @@
 .sidenav-title{
     text-decoration: none;
     color: black;
-    
+    margin-left: 5%;
+
 }
 
