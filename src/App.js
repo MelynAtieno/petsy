@@ -7,6 +7,9 @@ import Whyus from "./Components/Whyus";
 import Contact from './Components/Contact';
 import Shop from "./Components/Shop"
 import ShopCats from './Components/ShopCats';
+import ShopDogs from './Components/ShopDogs';
+import ShopRabbits from './Components/ShopRabbits';
+import ShopParrots from './Components/ShopParrots';
 
 
 
@@ -23,6 +26,9 @@ function App() {
         <Route path='/contact' element={<Contact />}/>
         <Route path='/shop' element={<Shop />}/>
         <Route path='/shop-cats' element={<ShopCats />}/>
+        <Route path='/shop-dogs' element={<ShopDogs />}/>
+        <Route path='/shop-rabbits' element={<ShopRabbits />}/>
+        <Route path='/shop-parrots' element={<ShopParrots />}/>
 
       </Routes>
     </div>
