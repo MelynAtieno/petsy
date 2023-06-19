@@ -19,11 +19,11 @@ function ShopNavbar() {
               )
             })}    */}
             
-            <li  className='sidenav-items'><FaHome/> <Link to="/shop">HOME</Link></li>
-            <li  className='sidenav-items'><FaCat/> <Link to="/shop-cats">CATS</Link></li>
-            <li  className='sidenav-items'><FaDog/> <Link to="/shop-dogs">DOGS</Link></li>
-            <li  className='sidenav-items'><GiRabbit/> <Link to="/shop-rabbits">RABBITS</Link></li>
-            <li  className='sidenav-items'><GiParrotHead/> <Link to="/shop-parrots">PARROTS</Link></li>
+            <li  className='sidenav-items'><FaHome/> <Link to="/shop" className='sidenav-title'><b>HOME</b></Link></li>
+            <li  className='sidenav-items'><FaCat/> <Link to="/shop-cats" className='sidenav-title'><b>CATS</b></Link></li>
+            <li  className='sidenav-items'><FaDog/> <Link to="/shop-dogs" className='sidenav-title'><b>DOGS</b></Link></li>
+            <li  className='sidenav-items'><GiRabbit/> <Link to="/shop-rabbits" className='sidenav-title'><b>RABBITS</b></Link></li>
+            <li  className='sidenav-items'><GiParrotHead/> <Link to="/shop-parrots" className='sidenav-title'><b>PARROTS</b></Link></li>
 
             </ul> 
         </div>
