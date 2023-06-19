@@ -1,5 +1,6 @@
 import React from 'react'
 import ShopNavbar from './ShopNavbar'
+import "../Styles/ShopCats.css"
 
 function ShopCats() {
   return (
