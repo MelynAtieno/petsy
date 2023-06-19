@@ -1,0 +1,11 @@
+.shopparrots-page{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.parrots-container{
+    margin: 3% 10%;
+
+    
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import ShopNavbar from './ShopNavbar'
+import "../Styles/ShopParrots.css"
 
 
 function ShopParrots() {
@@ -7,7 +8,7 @@ function ShopParrots() {
     <div className='shopparrots-page'>
         <ShopNavbar />
         
-        <div className='parrots-container'>ShopParrots</div>
+        <div className='parrots-container'>SHOPPARROTS</div>
         </div>
    
   )

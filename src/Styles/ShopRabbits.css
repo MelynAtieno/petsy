@@ -1,0 +1,11 @@
+.shoprabbits-page{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.rabbits-container{
+    margin: 3% 10%;
+
+    
+}
