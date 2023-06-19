@@ -1,8 +1,14 @@
 import React from 'react'
+import ShopNavbar from './ShopNavbar'
+
 
 function ShopParrots() {
   return (
-    <div>ShopParrots</div>
+    <div>
+        <ShopNavbar />
+        
+        <div>ShopParrots</div>
+        </div>
    
   )
 }
