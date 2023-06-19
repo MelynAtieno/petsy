@@ -1,0 +1,11 @@
+.shopdogs-page{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.dogs-container{
+    margin: 3% 10%;
+
+    
+}
