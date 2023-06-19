@@ -26,7 +26,7 @@ export const SidebarData = [
     {
         title: "PARROTS",
         icon: <GiParrotHead />,
-        link: "/shop-rabbits"
+        link: "/shop-parrots"
     }
     
 ]
