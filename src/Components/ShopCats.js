@@ -6,7 +6,13 @@ function ShopCats() {
   return (
     <div className='shopcats-page'>
         <ShopNavbar />
-        <div className='cats-container'>SHOPCATS</div>
+        <div className='cats-container'>
+          <div className='cat-pet1'>
+                <p>Ratings</p>
+                <p>$50</p>
+                <button>ADD TO CART</button>
+          </div>
+        </div>
     </div>
   )
 }
